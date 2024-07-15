@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQLGuru</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    body{
+        font-family: 'Poppins', sans-serif !important;
+    }
+    .question{
+        height: 500px;
+    }
+</style>
+<body class="container bg-primary">
+    <h1 class="text-center py-3 text-white">SQL GURU</h1>
+    <form id="sqlguru" class="form-group bg-white rounded p-3">
+        
+        <label for="folderName" class="h4">Folder Name:</label>
+        <input type="text" id="folderName" name="folderName" required class="form-control"><br>
+        
+        <label for="solution" class="h4">Add Solution</label>
+        <textarea id="solution" name="solution" required class="form-control solution"></textarea><br>
+
+        <label for="question" class="h4">Update README.md</label>
+        <textarea id="question" name="question" required class="form-control question">
+# 
+
+## Table Schema
+- USE ``
+        
+## Your challenge is to construct an SQL query to achieve the following:
+        
+    1. 
+        
+## Challenge:
+        
+- [x] 
+        </textarea><br>
+        <button type="submit" class="btn btn-success fs-5 text-uppercase">Create</button>
+    </form>
+
+<script>
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "sqlguru",
+  "version": "1.0.0",
+  "description": "Welcome to SQLGuru! This project contains SQL questions along with their solutions, covering various topics and complexities to help you master SQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  }
+}
