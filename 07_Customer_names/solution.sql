@@ -1,0 +1,1 @@
+SELECT FirstName, Country FROM 'Customer' WHERE country = 'USA' ORDER BY firstName ASC;
