@@ -11,7 +11,8 @@ The project is organized into directories, each representing a different SQL top
 ## Usage
 To explore a specific question and its solution:
 
-* Export the `database.sqlite` file using suitable tool *or* drop file at [SQLite Viewer](https://inloop.github.io/sqlite-viewer/)
+* Export the `database.sqlite` file using suitable tool *or* drop file at [SQLite Viewer.](https://inloop.github.io/sqlite-viewer/)
+* Run `npm install` for installing required modules.
 
 * Navigate to the corresponding directory.
 * Open question.md to read the question description.
