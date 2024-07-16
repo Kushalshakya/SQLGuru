@@ -11,7 +11,6 @@ const folderName = [
     'Counting Total Admissions'
 ];
 
-
 function createFolder(){
     const getSpaces = /\s+/g;
     folderName.forEach((folder, index) => {
