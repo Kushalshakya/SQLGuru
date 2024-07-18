@@ -13,7 +13,7 @@
     <form id="sqlguru" class="form-group bg-white rounded p-3">
         
         <label for="folderName" class="h4">Folder Name:</label>
-        <input type="text" id="folderName" name="folderName" required class="form-control"><br>
+        <input type="text" id="folderName" name="folderName" required class="form-control" autocomplete="off" spellcheck="false"><br>
         
         <label for="solution" class="h4">Add Solution</label>
         <textarea id="solution" name="solution" required class="form-control solution"></textarea><br>
@@ -35,6 +35,6 @@
         </textarea><br>
         <button type="submit" class="btn btn-success fs-5 text-uppercase">Create</button>
     </form>
-    <script src="server.js"></script>
+    <script src="server.js" type="module"></script>
 </body>
 </html>

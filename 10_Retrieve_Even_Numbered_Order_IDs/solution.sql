@@ -1,0 +1,1 @@
+SELECT order_id FROM 'orders' WHERE order_id % 2 = 0;
